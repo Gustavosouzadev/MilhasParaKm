@@ -18,7 +18,7 @@ namespace MilhasParaKm
             entrada = Console.ReadLine();
             Milhas = Convert.ToDouble(entrada);
             
-            Km = Milhas * 1609;
+            Km = Milhas * 1.609;
 
             Console.Write($"{Km}");
 
